@@ -25,8 +25,8 @@ There are 2 ways to avoid lambdas.
 * Use functions from the standard lib instead!
 	* Yes, the standard lib has many nice functions for this, mainly you might be interested [operator](https://docs.python.org/3/library/operator.html) 
 
-Let's take that first example again:
-```pytohn
+Let's take a look at that first example again:
+```python
 a.sort(key=lambda x: x[1])
 ```
 And look at the 2 methods on how to use something else!

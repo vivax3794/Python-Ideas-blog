@@ -44,7 +44,7 @@ And you are right, this is not the best option, but I will argue that this is st
 But let's now look at the standard lib and see if it can help us!
 
 ## The standard lib
-here [operator](https://docs.python.org/3/library/operator.html) is out friend, specifically [operator.itemgetter](https://docs.python.org/3/library/operator.html#operator.itemgetter) is the tool we need!
+here [operator](https://docs.python.org/3/library/operator.html) is our friend, specifically [operator.itemgetter](https://docs.python.org/3/library/operator.html#operator.itemgetter) is the tool we need!
 > Return a callable object that fetches item from its operand using the operand’s __getitem__() method.
 
 This sounds like exactly what we need! now let's see how this can be used to remove that pesky lambda:

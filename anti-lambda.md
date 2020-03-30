@@ -4,7 +4,7 @@ This is how you avoid using lambdas in python!
 Lambdas are [anonymous functions](https://book.pythontips.com/en/latest/lambdas.html) they are useful when you don't want to define a new function just for that little `map` function.
 
 # Why not to use them!
-They can look ugly and make what is part of the lambda and what is part of the rest of the expression.
+They can look ugly and make what is part of the lambda and what is part of the rest of the expression unclear.
 Let's take the example from the previous link:
 ```python
 a.sort(key=lambda x: x[1])
@@ -29,7 +29,7 @@ Let's take a look at that first example again:
 ```python
 a.sort(key=lambda x: x[1])
 ```
-And look at the 2 methods on how to use something else!
+And look at the 2 methods mentioned above!
 
 ## Using normal def
 this is a easy fix.
@@ -39,7 +39,7 @@ def get_index_1(some_list):
 
 a.sort(key=get_indedx_1)
 ```
-You might see this and thing, "What a waste of a function and lines!"
+You might see this and think, "What a waste of a function and lines!"
 And you are right, this is not the best option, but I will argue that this is still better than lambdas.
 But let's now look at the standard lib and see if it can help us!
 
